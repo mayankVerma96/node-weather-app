@@ -1,0 +1,37 @@
+body {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  color: #080808;
+  border-top: 1px solid #d3d3d3;
+  margin-top: 40px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #b2b2b2;
+  margin-right: 16px;
+}
+h1 {
+  color: #080808;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+}
+
+.container {
+  flex: 1;
+}
