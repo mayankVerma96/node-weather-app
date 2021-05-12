@@ -9,8 +9,9 @@ const forecast = (lat, long, callback) => {
     } else if (body.error) {
       callback("Unable to find match");
     } else {
+      console.log(body.current);
       callback(undefined, {
-        weather: body.current.weather_descriptions[0],
+        weather: `${body.current.weather_descriptions[0]} is the weather and wind speed is ${body.current.wind_speed}`,
       });
     }
   });
